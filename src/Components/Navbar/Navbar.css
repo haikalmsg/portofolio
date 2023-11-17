@@ -1,0 +1,21 @@
+.navbarWrapper{
+    display: flex;
+    height : 5vh;
+    align-items: center;
+    justify-content: space-between;
+    font-size: medium;
+    margin: 10px 5vw 10px 5vw;
+}
+.navbarNavigation{
+    display: flex;
+    justify-content: space-between;
+    width : 25vw;
+}
+.navbarButton:hover{
+    color: grey;
+    cursor:pointer;
+}
+nav{
+    position: sticky;
+    
+}

@@ -16,9 +16,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/Portofolio/' element = {<Home />}/>
-          <Route path = '/Portifolio/Experience' element = {<Experience/>}/>
-          <Route path = '/Portifolio/Profile' element = {<Profile/>}/>
-          <Route path = '/Portifolio/ContactMe' element = {<ContactMe/>}/>
+          <Route path = '/Portifolio/Experience/' element = {<Experience/>}/>
+          <Route path = '/Portifolio/Profile/' element = {<Profile/>}/>
+          <Route path = '/Portofolio/ContactMe/' element = {<ContactMe/>}/>
         </Routes>
       </Router>
       </NavbarContextProvider>

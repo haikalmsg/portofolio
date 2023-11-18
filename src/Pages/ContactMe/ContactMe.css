@@ -1,0 +1,44 @@
+.contactMeWrapper{
+    width : 40vw;
+    height: 60vh;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+.contactText{
+    font-size: xx-large;
+    padding-top: 30px;
+}
+input{
+    border : 1px solid black;
+    border-radius: 3px;
+    width: 35vw;
+    height: 60px;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.contactForm{
+    padding : 0 2vw;
+}
+.messege{
+    height: 100px;
+    width: 35vw;
+    margin-top: 30px;
+    border: 1px solid black;
+    resize: none;
+    padding-left: 10px ;
+    padding-top: 10px;
+}
+.submitButton{
+    border: 1px solid black;
+    margin-top: 30px;
+    padding : 10px;
+    font-size : large;
+    border-radius: 5px;
+}
+.submitButton:hover{
+    color: white;
+    background-color: black;
+}

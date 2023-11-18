@@ -1,0 +1,7 @@
+.navbarButton:hover{
+    color: grey;
+    cursor:pointer;
+}
+.navbarUnderline{
+    border-color: black;
+}

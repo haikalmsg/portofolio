@@ -3,16 +3,25 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Homepage/Home';
+import { NavbarContextProvider } from './Context/Navbarcontext';
+import Experience from './Pages/Experience/Experience';
+import Profile from './Pages/Profile/Profile';
+import ContactMe from './Pages/ContactMe/ContactMe';
 
 function App() {
   return (
     <div className="App">
+      <NavbarContextProvider>
       <Router>
         <Navbar />
         <Routes>
           <Route path='/Portofolio/' element = {<Home />}/>
+          <Route path = '/Portifolio/Experience' element = {<Experience/>}/>
+          <Route path = '/Portifolio/Profile' element = {<Profile/>}/>
+          <Route path = '/Portifolio/ContactMe' element = {<ContactMe/>}/>
         </Routes>
       </Router>
+      </NavbarContextProvider>
       
     </div>
   );

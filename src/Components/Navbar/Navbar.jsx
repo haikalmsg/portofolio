@@ -1,5 +1,7 @@
 import React from "react";
 import './Navbar.css'
+import Navitem from "./Navitems/Navitem";
+import { Link } from "react-router-dom";
 
 function Navbar(){
     
@@ -9,10 +11,10 @@ function Navbar(){
             <div className="navbarWrapper">
             <h1 className="navbarText">Portofolio</h1>
             <div className="navbarNavigation">
-                <h1 className="navbarButton">Home</h1>
-                <h1 className="navbarButton">Profile</h1>
-                <h1 className="navbarButton">Experience</h1>
-                <h1 className="navbarButton">Contact Me!</h1>
+                <Link to = "/Portofolio/"><Navitem id ={1} name = "Home"/></Link>
+                <Link to = "/Portofolio/Profile"><Navitem id ={2} name = "Profile"/></Link>
+                <Link to = "/Portofolio/Experience"><Navitem id ={3} name = "Experience"/></Link>
+                <Link to = "/Portofolio/ContactMe"><Navitem id ={4} name = "Contact Me"/></Link>
             </div>
         </div>
         <hr></hr>

@@ -3,7 +3,7 @@
     height : 5vh;
     align-items: center;
     justify-content: space-between;
-    font-size: medium;
+    font-size: larger;
     margin: 10px 5vw 10px 5vw;
 }
 .navbarNavigation{
@@ -11,10 +11,7 @@
     justify-content: space-between;
     width : 25vw;
 }
-.navbarButton:hover{
-    color: grey;
-    cursor:pointer;
-}
+
 nav{
     position: sticky;
     

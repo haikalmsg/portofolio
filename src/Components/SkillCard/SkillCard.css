@@ -1,0 +1,20 @@
+.skillCardWrapper{
+    display: flex;
+    border: 1px solid black;
+    width: 230px;
+    align-items: center;
+    gap : 50px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 0 20px;
+    justify-content: space-around;
+
+}
+.logoImg{
+    width: 50px;
+
+}
+.langName{
+    font-size: 20px;
+    font-weight: bold;
+}

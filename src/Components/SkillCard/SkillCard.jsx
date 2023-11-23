@@ -1,13 +1,12 @@
 import React from "react";
 import './SkillCard.css'
-import piton from '../../Assets/pics/python.png'
 
 function SkillCard(props){
-    
+    const {name, img} = props.data
     return(
         <div className="skillCardWrapper">
-            <img className="logoImg" src= {piton}></img>
-            <h1 className="langName">Python</h1>
+            <img className="logoImg" src= {img}></img>
+            <h1 className="langName">{name}</h1>
         </div>
     )
 }

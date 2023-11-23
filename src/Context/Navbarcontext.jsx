@@ -5,7 +5,7 @@ export const Navbarcontext = createContext(null)
 
 export const NavbarContextProvider = (props) => {
     const [navbarItem, setNavbarItem] = React.useState({
-        1 : true,
+        1 : false,
         2 : false,
         3 : false,
         4 : false

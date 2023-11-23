@@ -2,13 +2,17 @@ import React, {useEffect} from "react";
 import "./ContactMe.css";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { Navbarcontext } from "../../Context/Navbarcontext";
 
 function ContactMe(){
-
+    const {navbarClick, navbarItem, setFalse} = React.useContext(Navbarcontext)
     useEffect(() => {
         AOS.init();
       }, [])
+    useEffect(() => {
+        setFalse()
+        navbarClick(4)
+    },[])
     function handleSubmit(event){
         return(
             event.preventDefault()

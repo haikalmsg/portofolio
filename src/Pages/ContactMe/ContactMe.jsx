@@ -1,15 +1,21 @@
-import React from "react";
-import "./ContactMe.css"
+import React, {useEffect} from "react";
+import "./ContactMe.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function ContactMe(){
 
+    useEffect(() => {
+        AOS.init();
+      }, [])
     function handleSubmit(event){
         return(
             event.preventDefault()
         )
     }
     return(
-        <div className="contactMeWrapper">
+        <div className="contactMeWrapper" data-aos = "zoom-in">
             <h1 className="contactText" >Contact Me</h1>
             <form className="contactForm" onSubmit={handleSubmit}>
                 <input className="subject" placeholder="Subject"></input>

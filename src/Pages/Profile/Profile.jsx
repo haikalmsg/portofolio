@@ -39,7 +39,8 @@ function Profile(){
                 <img className="haikalPic"  data-aos = "fade-left" data-aos-duration = "1000" src={profile}></img>
                 
             </div>
-            <h1 className="skillTitle">Skills</h1>
+            <h1 className="skillTitle" data-aos = "fade-up">Skills</h1>
+            <hr></hr>
             <div className="skillsWrapper" data-aos = "fade-up" data-aos-duration = "1000">
                 {kartu}
 

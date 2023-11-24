@@ -1,0 +1,79 @@
+.homeWrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+.homeText{
+    font-weight: lighter;
+}
+.bodyText{
+    font-size: 80px;
+}
+.topText{
+    font-size: 30px;
+    color : black;
+}
+.myPhoto{
+    height: 500px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.introductionWrapper{
+    margin-top: 40vh;
+    margin-bottom: 10vh;
+}
+.imageWrapper{
+    display: inline;
+    margin-top: 10vh;
+}
+.socialMed{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 0;
+}
+.socialMediaWraper{
+    display: flex;
+    gap : 15px;
+    margin-top : 20px;
+}
+.bottom{
+    font-size: 30px;
+    color: black;
+}
+.socialMed:hover{
+    cursor: pointer;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ig{
+    background-image: url(../../../public/Instagram.svg);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.fb{
+    background-image: url(../../../public/github.svg);
+    background-position: center;
+    background-color: white;
+    background-size: 70px 70px;
+
+}
+.linkedin{
+    background-image: url(../../../public/LinkedIn.svg);
+    background-repeat: no-repeat;
+    background-position: center; 
+
+}
+.button{
+    border: 0;
+}
+.HomapageWrapper{
+    width : 90vw;
+    margin: 0 5vw;
+}
+.ProjectWrapper{
+    margin-bottom: 100px;
+}

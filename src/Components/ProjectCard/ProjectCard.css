@@ -1,0 +1,27 @@
+.projectCardWrapper{
+    width : 80vw;
+    margin: 50px 5vw;
+    display: flex;
+    gap : 100px;
+    align-items: center;
+    
+}
+.projectImg{
+    width: 590px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.projectTitle{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.projectText{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.visitButton{
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 10px;
+}

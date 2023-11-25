@@ -1,4 +1,4 @@
-.skillCardWrapper{
+.skillCardWrapper {
     border: 1px solid black;
     width: 200px;
     align-items: center;
@@ -6,17 +6,37 @@
     border-radius: 10px;
     padding: 0 20px;
     text-align: center;
-
 }
-.logoImg{
+
+.logoImg {
     width: 100px;
     height: 100px;
     margin: auto;
     padding-top: 25px;
-
 }
-.langName{
+
+.langName {
     font-size: 30px;
     font-weight: bold;
     padding-top: 30px;
+}
+
+/* Media queries for responsive styling */
+@media (max-width: 950px) {
+    .skillCardWrapper {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .logoImg {
+        width: 80px;
+        height: 80px;
+        padding-top: 15px;
+    }
+
+    .langName {
+        font-size: 20px;
+        padding-top: 20px;
+    }
 }

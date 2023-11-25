@@ -1,79 +1,134 @@
-.homeWrapper{
-    
+.homeWrapper {
     display: flex;
     justify-content: space-between;
     width: 90vw;
 }
-.homeText{
+
+.homeText {
     font-weight: lighter;
 }
-.bodyText{
+
+.bodyText {
     font-size: 80px;
 }
-.topText{
+
+.topText {
     font-size: 30px;
-    color : black;
+    color: black;
 }
-.myPhoto{
+
+.myPhoto {
     height: 500px;
     border-radius: 100%;
     border: 1px solid black;
 }
-.introductionWrapper{
+
+.introductionWrapper {
     margin-top: 40vh;
     margin-bottom: 10vh;
 }
-.imageWrapper{
+
+.imageWrapper {
     display: inline;
     margin-top: 10vh;
 }
-.socialMed{
+
+.socialMed {
     background-color: black;
     width: 50px;
     height: 50px;
     border-radius: 100%;
     border: 0;
 }
-.socialMediaWraper{
+
+.socialMediaWraper {
     display: flex;
-    gap : 15px;
-    margin-top : 20px;
+    gap: 15px;
+    margin-top: 20px;
 }
-.bottom{
+
+.bottom {
     font-size: 30px;
     color: black;
 }
-.socialMed:hover{
+
+.socialMed:hover {
     cursor: pointer;
     background-color: gray;
     background-repeat: no-repeat;
     background-position: center;
 }
-.ig{
+
+.ig {
     background-image: url(../../../public/Instagram.svg);
     background-repeat: no-repeat;
-    background-position: center; 
+    background-position: center;
 }
-.fb{
+
+.fb {
     background-image: url(../../../public/github.svg);
     background-position: center;
     background-color: white;
     background-size: 70px 70px;
-
 }
-.linkedin{
+
+.linkedin {
     background-image: url(../../../public/LinkedIn.svg);
     background-repeat: no-repeat;
-    background-position: center; 
-
+    background-position: center;
 }
-.button{
+
+.button {
     border: 0;
 }
-.HomapageWrapper{
-    width : 90vw;
+
+.HomapageWrapper {
+    width: 90vw;
     margin: 0 5vw;
 }
-.ProjectWrapper{
-    margin-bottom: 100px;
+
+.ProjectWrapper {
+    margin-bottom: 200px;
+}
+
+
+@media screen and (max-width: 1290px) {
+    .homeWrapper {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+
+    .homeText {
+        font-size: 24px;
+    }
+
+    .bodyText {
+        font-size: 48px;
+    }
+
+    .topText {
+        font-size: 18px;
+    }
+
+    .myPhoto {
+        height: 300px;
+    }
+
+    .introductionWrapper {
+        margin-top: 20vh;
+        margin-bottom: 5vh;
+    }
+
+    .imageWrapper {
+        margin-top: 5vh;
+    }
+
+    .socialMediaWraper {
+        margin-top: 10px;
+    }
+
+    .bottom {
+        font-size: 18px;
+    }
 }

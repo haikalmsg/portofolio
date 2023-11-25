@@ -1,27 +1,69 @@
-.projectCardWrapper{
-    width : 80vw;
+.projectCardWrapper {
+    width: 80vw;
     margin: 50px 5vw;
     display: flex;
-    gap : 100px;
+    gap: 100px;
     align-items: center;
-    
 }
-.projectImg{
+
+.projectImg {
     width: 590px;
     border-radius: 30px;
     border: 1px solid black;
 }
-.projectTitle{
+
+.projectTitle {
     font-size: xx-large;
     font-weight: bolder;
     margin-bottom: 20px;
 }
-.projectText{
+
+.projectText {
     margin-bottom: 20px;
     text-align: justify;
+    font-size: large;
+    line-height: 1.5;
 }
-.visitButton{
+
+.visitButton {
     margin-top: 30px;
     border: 1px solid black;
     padding: 10px;
+}
+
+@media (max-width: 1000px) {
+    .projectCardWrapper {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .projectImg {
+        width: 100%;
+    }
+
+    .projectTitle {
+        font-size: large;
+    }
+
+    .projectText {
+        font-size: medium;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1273px) {
+    .projectCardWrapper {
+        gap: 50px;
+    }
+
+    .projectText {
+        font-size: medium;
+    }
+
+    .projectImg {
+        width: 450px;
+    }
+    .projectTitle{
+        font-size: x-large;
+    }
 }

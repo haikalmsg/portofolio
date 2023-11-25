@@ -1,5 +1,5 @@
-.contactMeWrapper{
-    width : 40vw;
+.contactMeWrapper {
+    width: 40vw;
     height: 60vh;
     border: 1px solid black;
     margin: auto;
@@ -7,38 +7,69 @@
     border-radius: 10px;
     text-align: center;
 }
-.contactText{
+
+.contactText {
     font-size: xx-large;
     padding-top: 30px;
 }
-input{
-    border : 1px solid black;
+
+input {
+    border: 1px solid black;
     border-radius: 3px;
     width: 35vw;
     height: 60px;
     margin-top: 30px;
     padding-left: 10px;
 }
-.contactForm{
-    padding : 0 2vw;
+
+.contactForm {
+    padding: 0 2vw;
 }
-.messege{
+
+.messege {
     height: 100px;
     width: 35vw;
     margin-top: 30px;
     border: 1px solid black;
     resize: none;
-    padding-left: 10px ;
+    padding-left: 10px;
     padding-top: 10px;
 }
-.submitButton{
+
+.submitButton {
     border: 1px solid black;
     margin-top: 30px;
-    padding : 10px;
-    font-size : large;
+    padding: 10px;
+    font-size: large;
     border-radius: 5px;
 }
-.submitButton:hover{
+.notification{
+    margin-top: 20px;
+}
+
+.submitButton:hover {
     color: white;
     background-color: black;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .contactMeWrapper {
+        width: 80vw;
+    }
+
+    input,
+    .messege {
+        width: 70vw;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1254px) {
+    .contactMeWrapper {
+        width: 60vw;
+    }
+
+    input,
+    .messege {
+        width: 50vw;
+    }
 }

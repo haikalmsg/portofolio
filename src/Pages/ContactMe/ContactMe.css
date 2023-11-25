@@ -6,6 +6,7 @@
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
+    min-height: 500px;
 }
 
 .contactText {
@@ -52,7 +53,6 @@ input {
     background-color: black;
 }
 
-/* Media Queries */
 @media screen and (max-width: 768px) {
     .contactMeWrapper {
         width: 80vw;

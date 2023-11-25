@@ -3,10 +3,11 @@
     height: 60vh;
     border: 1px solid black;
     margin: auto;
-    margin-top: 10vh;
+    margin-top: 200px;
     border-radius: 10px;
     text-align: center;
     min-height: 500px;
+
 }
 
 .contactText {

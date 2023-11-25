@@ -50,7 +50,7 @@ function Home(){
                     <p className="homeText bottomText bottom">Get to know me better</p>
                     <div className="socialMediaWraper">
                         <a  className="socialMed ig button" href= "https://www.instagram.com/haikalmsg/"></a>
-                        <a className="socialMed linkedin button" href="https://id.linkedin.com/in/haikal-muhammad-zahid-ghiffari-771806169"></a>
+                        <a className="socialMed linkedin button" href="https://www.linkedin.com/in/haikal-muhammad-zahid-ghiffari-2601b129a/"></a>
                         <a className="socialMed fb button" href="https://github.com/haikalmsg"></a>
                     </div>
                 </div>

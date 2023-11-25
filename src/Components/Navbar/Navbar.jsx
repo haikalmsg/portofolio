@@ -14,7 +14,7 @@ function Navbar(){
 
     useEffect(() => {
         const handleResize = () => {
-            setIsSmallScreen(window.innerWidth <= 1230); // Adjust the breakpoint as needed
+            setIsSmallScreen(window.innerWidth <= 1230);
         }
 
         window.addEventListener('resize', handleResize);
@@ -31,13 +31,13 @@ function Navbar(){
                 <h1 className="navbarText">Portofolio</h1>
                 <div className="navbarNavigation">
                     {!isSmallScreen && (
-                        <Link to="/Portofolio/"><Navitem id={1} name="Home" /></Link>
+                        <Link to="/portofolio/"><Navitem id={1} name="Home" /></Link>
                     )}
                     {!isSmallScreen && (
                         <>
-                            <Link to="/Portofolio/Profile/"><Navitem id={2} name="Profile" /></Link>
-                            <Link to="/Portofolio/Experience/"><Navitem id={3} name="Experience" /></Link>
-                            <Link to="/Portofolio/ContactMe/"><Navitem id={4} name="Contact Me" /></Link>
+                            <Link to="/portofolio/Profile/"><Navitem id={2} name="Profile" /></Link>
+                            <Link to="/portofolio/Experience/"><Navitem id={3} name="Experience" /></Link>
+                            <Link to="/portofolio/ContactMe/"><Navitem id={4} name="Contact Me" /></Link>
                         </>
                     )}
                 </div>

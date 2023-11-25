@@ -15,10 +15,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path='/Portofolio/' element = {<Home />}/>
-          <Route path = '/Portofolio/Experience/' element = {<Experience/>}/>
-          <Route path = '/Portofolio/Profile/' element = {<Profile/>}/>
-          <Route path = '/Portofolio/ContactMe/' element = {<ContactMe/>}/>
+          <Route path='/portofolio/' element = {<Home />}/>
+          <Route path = '/portofolio/Experience/' element = {<Experience/>}/>
+          <Route path = '/portofolio/Profile/' element = {<Profile/>}/>
+          <Route path = '/portofolio/ContactMe/' element = {<ContactMe/>}/>
         </Routes>
       </Router>
       </NavbarContextProvider>

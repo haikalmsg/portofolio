@@ -24,7 +24,7 @@ function ContactMe() {
 
         emailjs.sendForm('service_qnrvxov', 'template_y937msm', form.current, 'v22FpQraDdKxGxiGS')
             .then((result) => {
-                setSuccess(true); // Add a state variable to track success
+                setSuccess(true); 
                 console.log(result.text);
                 console.log("success");
                 form.current.reset();

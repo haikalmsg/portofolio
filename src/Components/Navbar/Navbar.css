@@ -18,17 +18,16 @@ nav {
     top: 0;
     width: 100%;
     z-index: 100;
-    background-color: #ffffff; /* Add a background color to make it not transparent */
+    background-color: #ffffff;
 }
 
 .dropdownButton {
-    border: 1px solid black; /* Add border to the dropdown button */
-    text-align: center; /* Center the text inside the dropdown button */
+    border: 1px solid black;
+    text-align: center;
     padding: 3px 10px;
     border-radius: 3px;
 }
 
-/* Style the dropdown */
 .dropdown {
     position: relative;
 }
@@ -53,7 +52,6 @@ nav {
 }
 
 @media (max-width: 1230px) {
-
     .navbarWrapper {
         height: auto;
         min-height: 5vh;

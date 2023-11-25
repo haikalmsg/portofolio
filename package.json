@@ -2,7 +2,7 @@
   "name": "porto-haikal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "haikalmsg.github.io/portofolio",
+  "homepage": "haikalmsg.github.io/portofolio/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@headlessui/react": "^1.7.17",

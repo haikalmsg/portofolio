@@ -28,7 +28,7 @@ function Navbar(){
     return(
         <nav>
             <div className="navbarWrapper">
-                <h1 className="navbarText">Portofolio</h1>
+                <h1 className="navbarText">Portfolio</h1>
                 <div className="navbarNavigation">
                     {!isSmallScreen && (
                         <Link to="/portofolio/"><Navitem id={1} name="Home" /></Link>

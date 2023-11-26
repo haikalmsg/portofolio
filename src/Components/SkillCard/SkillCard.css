@@ -21,7 +21,6 @@
     padding-top: 30px;
 }
 
-/* Media queries for responsive styling */
 @media (max-width: 950px) {
     .skillCardWrapper {
         width: 100%;

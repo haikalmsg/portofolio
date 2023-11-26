@@ -22,28 +22,15 @@ function Profile() {
         navbarClick(2);
     }, []);
 
-    useEffect(() => {
-        const handleResize = () => {
-            setIsSmallScreen(window.innerWidth < 768);
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
 
     const kartu = cards.map(card => (
         <SkillCard
             data={card} />
     ));
-    // END: abpxx6d04wxr
 
     return (
         <div className="profileWrapper">
             <div className="haikalWrapper">
-            {isSmallScreen && <img className="haikalPic" data-aos="fade-left" data-aos-duration="1000" src={profile}></img>}
                 <div className="textWrapper" data-aos="fade-right" data-aos-duration="1000">
                     <h1 className="haikalName">I'm Haikal</h1>
                     <p className="haikalDesc">A passionate student and developer currently pursuing my education at Universitas Gadjah Mada, Known as a cheerful, innovative, talkative individual. Has a major interest in Machine Learning, Computer Vision, Databases, Web Development and Technology. Currently building HIMAKOM as their entrepreneurship staff. Experienced in many programming languages and many organization. Looking forward to a new experience and opportunities.</p>
@@ -52,7 +39,7 @@ function Profile() {
                         <Link to="/portofolio/ContactMe" className="emailButton"><a>Let's Chat</a></Link>
                     </div>
                 </div>
-                {!isSmallScreen && <img className="haikalPic" data-aos="fade-left" data-aos-duration="1000" src={profile}></img>}
+                <img className="haikalPic" data-aos="fade-left" data-aos-duration="1000" src={profile}></img>
 
             </div>
             <h1 className="skillTitle" data-aos="fade-up">Skills</h1>

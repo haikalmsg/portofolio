@@ -44,7 +44,7 @@ function Navbar(){
                 {isSmallScreen && (
                     <div className="dropdownMenu">
                         <button className="dropdownButton" onClick={toggleDropdown}>
-                            {isDropdownOpen ? <span>&#x25BC;</span> : <span>&#x25B2;</span>}
+                            {isDropdownOpen ? <span>&#x25B2;</span> : <span>&#x25BC;</span>}
                         </button>
                         {isDropdownOpen && (
                             <div className="dropdownContent">

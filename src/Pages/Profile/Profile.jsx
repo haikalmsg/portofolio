@@ -35,7 +35,7 @@ function Profile() {
                     <h1 className="haikalName">I'm Haikal</h1>
                     <p className="haikalDesc">A passionate student and developer currently pursuing my education at Universitas Gadjah Mada, Known as a cheerful, innovative, talkative individual. Has a major interest in Machine Learning, Computer Vision, Databases, Web Development and Technology. Currently building HIMAKOM as their entrepreneurship staff. Experienced in many programming languages and many organization. Looking forward to a new experience and opportunities.</p>
                     <div className="resumeWrapper">
-                        <a className="resumeButton button">📄 Resume</a>
+                        <a className="resumeButton button" href = "https://drive.google.com/file/d/16hVYdRTEQAzbWvGsdp1SgmQTX4JllsJP/view?usp=sharing">📄 Resume</a>
                         <Link to="/portofolio/ContactMe" className="emailButton"><a>Let's Chat</a></Link>
                     </div>
                 </div>

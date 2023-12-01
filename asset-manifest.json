@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portofolio/static/css/main.54cf96f2.css",
-    "main.js": "/portofolio/static/js/main.039a1ced.js",
+    "main.js": "/portofolio/static/js/main.534275db.js",
     "static/js/787.df956e51.chunk.js": "/portofolio/static/js/787.df956e51.chunk.js",
     "static/media/haikal.jpg": "/portofolio/static/media/haikal.88ded588293c0df5e6cd.jpg",
     "static/media/skin-lesion.png": "/portofolio/static/media/skin-lesion.a5dc230669afade9321f.png",
@@ -28,11 +28,11 @@
     "static/media/html.svg": "/portofolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
     "static/media/js.svg": "/portofolio/static/media/js.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.54cf96f2.css.map": "/portofolio/static/css/main.54cf96f2.css.map",
-    "main.039a1ced.js.map": "/portofolio/static/js/main.039a1ced.js.map",
+    "main.534275db.js.map": "/portofolio/static/js/main.534275db.js.map",
     "787.df956e51.chunk.js.map": "/portofolio/static/js/787.df956e51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54cf96f2.css",
-    "static/js/main.039a1ced.js"
+    "static/js/main.534275db.js"
   ]
 }

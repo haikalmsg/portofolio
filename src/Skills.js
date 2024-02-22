@@ -12,6 +12,7 @@ import p13 from './Assets/pics/html.svg'
 import p14 from './Assets/pics/css.svg'
 import p15 from './Assets/pics/js.svg'
 import p16 from './Assets/pics/react.svg'
+import p17 from './Assets/pics/typescript.svg'
 
 
 
@@ -75,6 +76,10 @@ const PRODUCTS =[
     {
         name : "Figma",
         img : p12
+    },
+    {
+        name : "TypeScript",
+        img : p17
     }
    
 ]
